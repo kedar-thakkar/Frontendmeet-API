@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>frontendarmy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body style="width: 100%;background: #F9FFFE; font-family: 'Poppins', sans-serif; margin: 0; padding:90px 0;box-sizing: border-box;margin: 0;box-sizing: border-box;border: 0;border-spacing: 0;" >
+
+
+<style>
+    table {
+        border: 0;
+        border-collapse: collapse;
+    }
+</style>
+<table style="background:url(https://demodevsite.info/email-template/email_bg1.png)no-repeat center;background-color: #EEFCF9;box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.06);border-radius: 30px;font-family: 'Poppins', sans-serif;margin: 0 auto;width:600px;box-sizing: border-box;border: 0;border-spacing: 0; background-position: top center;">
+    <tr>
+        <td>
+            <table style="width:100%;border: 0;border-spacing: 0;    border-radius: 10px 10px 0 0;background-size: cover;background-blend-mode: overlay;">
+                <tr>
+                    <td style="height:74px"></td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">
+                        <img src="https://demodevsite.info/email-template/logo.png" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="height:46px"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <table width="100%" style="text-align: center;">
+                <tr>
+                    <td width="10%"></td>
+                    <td width="80%">
+                        <table width="100%" style="border: 0;border-spacing: 0;">
+                            <tr>
+                                <td >
+                                    <table width="100%" style="background: #FFFFFF;border-radius: 10px;border: 0;border-spacing: 0;">
+                                        <tr>
+                                            <td width="7%"></td>
+                                            <td width="86%">
+                                                <table width="100%">
+                                                    <tr>
+                                                        <td style="height: 30px;"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img src="table_icon/mail_icon.png" alt="">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="height: 5px;"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-weight: bold;font-size: 18px;line-height: 27px;color: #000000;">Thanks For Signing up, <b th:text="${user.name}+' !'"> </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="height: 25px;"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="border-bottom: 1px solid rgba(23, 45, 61, 0.06);"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="height: 25px;"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-weight: normal; font-size: 14px; line-height: 21px; text-align: center;">
+                                                            Please verify your email address to get access to <br> Frontend Meet Application
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="height: 10px;"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-weight: bold;font-size: 19px; line-height: 39px;color: #F16A54;">Thank You</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-weight: 400;font-size: 14px; line-height: 1;color: #172D3D;">The Team
+                                                        <br>                                                 
+Frontend Army Infocon Pvt. Ltd.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="height: 20px;"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <a th:href="@{${hostname} + '/register/verifyAccount?email=' + ${user.email} + '&password='+${user.password}}" style="font-weight: 500; font-size: 16px; line-height: 24px;background: #F16A54;border-radius: 5px;text-decoration: none;padding: 11px 26px;color: #fff;display: inline-block;">Verify Email Now</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="height: 40px;"></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td width="7%"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 40px;"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table width="100%" style="opacity: 0.5;">
+                                        <tr>
+                                            <td>
+                                                <a href= "https://dribbble.com/Frontendarmy"><img src="https://demodevsite.info/email-template/dribble.png" alt="" style="margin: 0 8px;"></a>
+                                                <a href= "https://in.linkedin.com/company/frontendarmy"><img src="https://demodevsite.info/email-template/bx_bxl-linkedin.png" alt="" style="margin: 0 8px;">
+                                                <a href= "https://www.facebook.com/frontendarmy"><img src="https://demodevsite.info/email-template/fb_icon.png" alt="" style="margin: 0 8px;">
+<!--                                               <a href= "https://dribbble.com/Frontendarmy"><img src="https://demodevsite.info/email-template/instagram.png" alt="" style="margin: 0 8px;">
+-->                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 20px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="font-style: normal; font-weight: normal; font-size: 14px; line-height: 21px;opacity: 0.4;color: #0C171E;">
+                                    copyright © 2022 FrontendArmy. All Rights Reserved
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="height: 40px;"></td>
+                            </tr>
+                        </table>        
+                    </td>
+                    <td width="10%"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>  
+</table>
+
+</body>
+</html>
